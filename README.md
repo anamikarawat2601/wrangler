@@ -70,25 +70,3 @@ aggregate-stats : inputSize, inputTime, totalSizeMB, averageTimeSec, 'MB', 'seco
 
 ---
 
-### 🛠️ Build & Test
-
-```bash
-# Build and compile grammar
-mvn clean install
-
-# Run tests
-mvn test
-```
-
----
-
-### 📎 Icons Used
-
-- ✨ Feature Highlight  
-- 📦 Module Feature  
-- 📂 File Paths  
-- 📄 Java Classes  
-- 🔍 Parser/Logic  
-- 🧪 Tests  
-- 🚀 Workflow  
-- 📈 Results  
