@@ -1,0 +1,15 @@
+1. How do I add new unit tokens like KB, MB, ms, s in an ANTLR grammar file?
+2. What's the best way to write lexer and parser rules in ANTLR to handle byte sizes (like "10KB", "1.5MB") and time durations (like "150ms", "2s")?
+3. I need help updating the Directives.g4 grammar file to support these new units—what changes should I make?
+4. Can you help me write a Java class that can parse a string like "10KB" and convert it into bytes?
+5. Similarly, I need a Java class for time durations—something that takes input like "2s" or "500ms" and gives output in nanoseconds.
+6. How do I properly register these new tokens (BYTE_SIZE and TIME_DURATION) in Wrangler’s token system?
+7. What does a typical custom directive look like in Wrangler? I want to make one that aggregates byte size and time duration values.
+8. How should I store and accumulate values for aggregation in a directive that works across multiple rows?
+9. I want to write unit tests for my ByteSize and TimeDuration classes. What kind of test cases should I include?
+10. Need help writing test cases for my new directive that calculates total size in MB and total time in seconds.
+11. What's the correct way to convert KB, MB, GB in Java? Also, should I use 1000 or 1024 when converting?
+12. How do I write parser tests to make sure the new tokens and syntax are handled correctly?
+13. What is ExecutorContext in CDAP Wrangler and how do I use it in an aggregate directive?
+14. Can you show me an example of using TestingRig to run a recipe and check the result?
+15. I need help writing the define() method for my directive—it should take two input columns and two output column names, maybe more later for optional settings like output unit or aggregation type.
